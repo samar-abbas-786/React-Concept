@@ -51,5 +51,11 @@ Use axios to Fetch, Post data from backend....
 ## INTERVIEW QUESTION OF REACTJS
 ***(1)Explain the Virtual DOM, and a pragmatic overview of how React renders it to the DOM.***
 
-***Under Process***
+### What are the limitations of React?
+The few limitations of React are as given below:
+
+- ***React is not a full-blown framework as it is only a library.***
+- ***The components of React are numerous and will take time to fully grasp the benefits of all***.
+- ***It might be difficult for beginner programmers to understand React***.
+- ***Coding might become complex as it will make use of inline templating and JSX***.
 
