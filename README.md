@@ -58,4 +58,63 @@ The few limitations of React are as given below:
 - ***The components of React are numerous and will take time to fully grasp the benefits of all***.
 - ***It might be difficult for beginner programmers to understand React***.
 - ***Coding might become complex as it will make use of inline templating and JSX***.
+- 
+
+## What is a Hook?
+Hooks allow us to "hook" into React features such as state and lifecycle methods.
+
+### Example:
+Here is an example of a Hook. Don't worry if it doesn't make sense. We will go into more detail in the next section.
+
+***import React, { useState } from "react";
+import ReactDOM from "react-dom/client";
+
+function FavoriteColor() {
+  const [color, setColor] = useState("red");
+
+  return (
+    <>
+      <h1>My favorite color is {color}!</h1>
+      <button
+        type="button"
+        onClick={() => setColor("blue")}
+      >Blue</button>
+      <button
+        type="button"
+        onClick={() => setColor("red")}
+      >Red</button>
+      <button
+        type="button"
+        onClick={() => setColor("pink")}
+      >Pink</button>
+      <button
+        type="button"
+        onClick={() => setColor("green")}
+      >Green</button>
+    </>
+  );
+}***
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<FavoriteColor />);
+
+You must import Hooks from react.
+
+Here we are using the useState Hook to keep track of the application state.
+
+State generally refers to application data or properties that need to be tracked.
+
+## Hook Rules
+There are 3 rules for hooks:
+
+-Hooks can only be called inside React function components.
+-Hooks can only be called at the top level of a component.
+-Hooks cannot be conditional
+***Note: Hooks will not work in React class components.***
+
+## Custom Hooks
+If you have stateful logic that needs to be reused in several components, you can build your own custom Hooks.
+
+
+
 
