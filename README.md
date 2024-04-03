@@ -118,7 +118,7 @@ If you have stateful logic that needs to be reused in several components, you ca
 
 ## Code for Video Player
 
-function Video({ video }) {
+***function Video({ video }) {
   return (
     <div>
       <Thumbnail video={video} />
@@ -129,4 +129,4 @@ function Video({ video }) {
       <LikeButton video={video} />
     </div>
   );
-}
+}***
