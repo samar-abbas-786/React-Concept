@@ -63,6 +63,10 @@ The few limitations of React are as given below:
 ## What is a Hook?
 Hooks allow us to "hook" into React features such as state and lifecycle methods.
 
+## Referencing values with refs 
+When you want a component to “remember” some information, but you don’t want that information to trigger new renders, you can use a ref:
+***const ref = useRef(0)***;
+
 ### Example:
 Here is an example of a Hook. Don't worry if it doesn't make sense. We will go into more detail in the next section.
 
