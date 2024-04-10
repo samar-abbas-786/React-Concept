@@ -63,6 +63,10 @@ The few limitations of React are as given below:
 ## What is a Hook?
 Hooks allow us to "hook" into React features such as state and lifecycle methods.
 
+## useRef
+useRef is a React Hook that lets you reference a value that’s not needed for rendering.
+
+const ref = useRef(initialValue)
 ## Referencing values with refs 
 When you want a component to “remember” some information, but you don’t want that information to trigger new renders, you can use a ref:
 ***const ref = useRef(0)***;
