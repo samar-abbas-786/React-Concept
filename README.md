@@ -124,17 +124,4 @@ There are 3 rules for hooks:
 If you have stateful logic that needs to be reused in several components, you can build your own custom Hooks.
 
 
-## Code for Video Player
 
-***function Video({ video }) {
-  return (
-    <div>
-      <Thumbnail video={video} />
-      <a href={video.url}>
-        <h3>{video.title}</h3>
-        <p>{video.description}</p>
-      </a>
-      <LikeButton video={video} />
-    </div>
-  );
-}***
