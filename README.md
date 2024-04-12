@@ -63,6 +63,10 @@ The few limitations of React are as given below:
 ## What is a Hook?
 Hooks allow us to "hook" into React features such as state and lifecycle methods.
 
+## React Memo
+Using memo will cause React to skip rendering a component if its props have not changed.
+
+This can improve performance
 ## useRef
 useRef is a React Hook that lets you reference a value that’s not needed for rendering.
 
